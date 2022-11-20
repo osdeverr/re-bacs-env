@@ -1,0 +1,7 @@
+type: static-library
+name: .gspp-net
+
+deps:
+  - .bacs
+  - .bpacs
+  - .plakpacs

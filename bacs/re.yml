@@ -1,0 +1,6 @@
+type: static-library
+name: .bacs
+
+deps:  
+  - vcpkg:boost-config
+  - vcpkg:boost-asio

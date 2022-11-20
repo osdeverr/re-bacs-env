@@ -1,0 +1,6 @@
+type: static-library
+name: .plakpacs
+
+deps:
+  - .bacs
+  - .bpacs
