@@ -1,2 +1,5 @@
 type: static-library
 name: .bpjson
+
+deps:
+  - .bpacs
