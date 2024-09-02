@@ -126,7 +126,7 @@ namespace bpjson
             bpacs::iterate_object(object, [&json, &settings](auto field) {
                 try
                 {
-                    if ((settings.missing_fields_mode == missing_fields::default_initialize &&
+                    if ((settings.missing_fields_mode == missing_fields::throw_exception &&
                          !json_walker<Json, T>::force_optional && !json_fields_optional<T>::value) ||
                         json_traits<Json>::subkey_exists(json, field.name()))
                     {
